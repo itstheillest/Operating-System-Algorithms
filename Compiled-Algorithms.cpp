@@ -1,11 +1,3 @@
-/*
-    Mark Clarenz Alpajora
-    Mac Justin Azur
-    France Evangelista
-    Rhen Peñada
-    John Carlo Villanueva
-*/
-
 #include <iostream>
 #include <iomanip>
 #include <algorithm>
@@ -3180,7 +3172,7 @@ void graph(vector<int> requests, int head, vector<int> seek_sequence)
 	//GNUPLOT has to be downloaded first before this graph to function.
 	//It can be downloaded here: http://www.gnuplot.info/
 	//The dir (short for directory) requires to be changed depending on the file path of THIS program.
-    string dir = "C:/Users/carlo/OneDrive/Documents/Programming/CodingC++/Sorting Algorithm/All versions/v.2-2.3-3.1.6 (Disc Management Major Update)/";
+    string dir = "C:/Users/[Username]/[The file directory of this file]/";
 
     // ?? Check if Gnuplot exists
     ifstream gnuplotCheck("C:/Program Files/gnuplot/bin/gnuplot.exe");
